@@ -1,0 +1,74 @@
+<<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>我的自我介紹</title>
+        <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    
+    <body>
+        <!-- 主頁 -->
+        <div data-role="page" id="home">
+            <div data-role="header">
+                <h1>我的自我介紹</h1>
+            </div>
+            <div data-role="content">
+                <h2>個人資訊</h2>
+                <p>姓名：潘氏鴛</p>
+                <p>性別：女</p>
+                <p>年齡：19歲</p>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home"data-transition="slide" class="ui-btn-active ui-state-persist">主頁</a></li>
+                        <li><a href="#interests"data-transition="slide">興趣愛好</a></li>
+                        <li><a href="#education"data-transition="slide">學歷經歷</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <!-- 興趣愛好 -->
+        <div data-role="page" id="interests">
+            <div data-role="header">
+                <h1>我的自我介紹</h1>
+            </div>
+            <div data-role="content">
+                <h2>興趣愛好</h2>
+                <p>我的喜歡 聽音樂，睡覺，吃東西，看小說。</p>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#home"data-transition="slidedown">主頁</a></li>
+                        <li><a href="#interests" data-transition="slidedown"class="ui-btn-active ui-state-persist">興趣愛好</a></li>
+                        <li><a href="#education"data-transition="slidedown">學歷經歷</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <!-- 學歷經歷 -->
+        <div data-role="page" id="education">
+            <div data-role="header">
+                <h1>我的自我介紹</h1>
+            </div>
+            <div data-role="content">
+                <h3>學歷經歷</h3>
+                <p>2010-2014，北江師範學校畢業一物理教學係。</p>
+                <p>2014-2016，就讀美國斯坦福大學電子工程碩 </p>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                       <li><a href="#home"data-transition="flip">主頁</a></li>
+                        <li><a href="#interests" data-transition="flip">興趣愛好</a></li>
+                        <li><a href="#education"data-transition="flip"class="ui-btn-active ui-state-persist">學歷經歷</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
